@@ -7,12 +7,12 @@
 (Estimated Run Time : Less Than 4 Minutes)
 
 N02 M06 T01 (Tool Change: Tool 1)
-NO3 M03 S########## (Turn Spindle on ClockWise at RPM's)##################################################################
+NO3 M03 S10000 (Turn Spindle on ClockWise at RPM's)
 N04 G00 X8.0 Y8.0 (Starting Location A)
 N05 G00 Z10.0 (Lower 10mm above material)
-N06 G01 Z-1.5 F (Plunge into material at 1.5mm at Feed Rate | Plunge F = Feed/2)##########################################
+N06 G01 Z-1.5 F762 (Plunge into material at 1.5mm at Feed Rate | Plunge F = Feed/2)
 (LETTER B GCODE)
-N07 X8.0 Y42.0 F## (B)####################################################################################################
+N07 X8.0 Y42.0 F1524 (B)
 N08 X16.0 Y42.0 (C)
 N09 G02 I0.0 J-8.0 (D)
 N10 G01 X16.0 Y26.0 (E)
