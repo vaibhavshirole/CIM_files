@@ -2,7 +2,7 @@
 (Initials)
 (Jordan Peterson)
 (9-20-17)
-(4mm tool)
+(4mm)
 (1m32s)
 N01 G90 G17 G21 (Absolute positioning, XY plane, Metric)
 N02 M06 T01 (Tool Change- tool 1)
@@ -28,10 +28,11 @@ N21 X32.0 Y42.0 F1524 (move to position J at Feed rate ###)
 N22 X48.0 Y42.0 F1524 (move to position K at Feed rate ###)
 N23 X48.0 Y34.0 F1524 (move to position L at Feed rate ###)
 N24 G02 X46.0 Y34.0 I-1.0 J-1.0 F1524
-N25 
+N25 G01
 N26 X46.0 Y32.0 F1524 (move to position M at Feed rate ###)
-N27 G00 Z4.0 (Retracting tool from stock)
-N28 X74.0 Y6.0 (clear tool from stock)
-N29 M05 (spindle stop)
-N30 M30 (program Stop)
+N27 X32.0 Y32.0 F1524 (move to position N at Feed rate ###)
+N28 G00 Z4.0 (Retracting tool from stock)
+N29 X56.0 Y4.0 (clear tool from stock)
+N30 M05 (spindle stop)
+N31 M30 (program Stop)
 %
