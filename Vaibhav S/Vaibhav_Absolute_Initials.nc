@@ -13,14 +13,14 @@ N03 M03 S10000.0 (Clockwise spindle, turn on at ### RPM's)
 
 N04 G00 X8.0 Y42.0 (Rapid to position A)
 N05 Z5.0 (Get 4mm above the material I will be cutting)
-N06 G01 Z-1.5 F1524.0 (Feed instead of  rapid, plunge into the thing 1.5mm, and set feed rate; Plunge Feed = Feed/2)
+N06 G01 Z-1.5 F750.0 (Feed instead of  rapid, plunge into the thing 1.5mm, and set feed rate; Plunge Feed = Feed/2)
 N07 X16.0 Y8.0 (point b LETTER ‘V’ STARTS HERE)
-N08 X24.0 Y42.0 F1524.0 (SET FEED RATE)
+N08 X24.0 Y42.0 F750.0 (SET FEED RATE)
 N09 X24.0 Y42.0 (point c)
 N99 G00 Z5.0 (Set to rapid, and go 2mm above material)
 
 N10 X48 Y34   (point h        	LETTER ’S’ STARTS HERE)
-N11 G01 Z-1.5 F1524.0 
+N11 G01 Z-1.5 F750.0 
 N12 I-8.0 J0.0
 
 N13 X32.0 Y34.0 G03 J0.0 I-8.0 (point i)
@@ -30,7 +30,7 @@ N55 X32.0 Y16.0 G02 I-8.0 J0.0 (point k)
 
 N16 G00 Z5.0							(LETTER ‘H’ STARTS HERE)
 N17 X56.0 Y42.0 (point v)
-N18 G01 Z-1.5 F1524.0
+N18 G01 Z-1.5 F750.0
 
 N19 X56.0 Y8.0  (point x)
 N20 X56.0 Y26.0 (point w)
