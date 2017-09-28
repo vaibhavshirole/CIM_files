@@ -1,0 +1,17 @@
+%
+(G-code Custo Design program)
+(9/20/17)
+(4mm 1FL End Mill)
+(60 seconds)
+N01 G90 G17 G21 (Absolute Positioning, xy plane, mm)
+N02 M06 T01 (Tool Change- tool 1)
+N03 M03 S10000 (turn spindle speed on clockwise at 10000 RPM's)
+N04 G00 X8.0 Y16.0 (Rapid to Above Point A)
+N05 G00 Z50 (move to 50mm above stock)
+N06 G01 Z-1.5 F762.0 (Plunge into Stock 1.5mm Plunge Feed= 1524/2)
+N07 G02 X8.0 Y16.0 R4 F1524 (Rotate around centerpt. w/ radius of 4mm, feed rate of 1524)
+N08 X8.0 Y34.0 (move to position D at feed rate 1524)
+N09 G02 X24.0 Y34.0 I8.0 J0 (move to position F with centerpoint E)
+N10 G00 Z4.0 (retracting tool from stock)
+N11 G00 X40.0 Y8.0 (Rapid to position G)
+N12 
