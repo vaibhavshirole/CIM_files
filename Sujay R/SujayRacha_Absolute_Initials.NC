@@ -32,6 +32,7 @@ N24 G00 X64.0 Y42.0 (Rapid to Positon O)
 N25 G01 Z-1.5 F300.0 (Plunge into Stock 1.5mm Plunge Feed 762.0)
 N26 X64.0 Y14.0 F750.0 (Cut to Position P at Feed Rate 1524.0)
 N27 G02 X56.0 Y14.0 I-4.0 J0.0 (Cut in CW Arc Start at P Finish at Q Center is R)
-N23 G00 X56.0 Y14.0 Z2.0 (Move to 2.0 Above Stock at Q)
+N23 G00 X56.0 Y14.0 Z5.0 (Move to 2.0 Above Stock at Q)
 N24 G00 X0.0 Y0.0 (Rapid to Origin)
+N25 M05
 %
