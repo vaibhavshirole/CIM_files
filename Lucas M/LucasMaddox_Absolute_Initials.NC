@@ -4,7 +4,7 @@
 (9/20/2017)
 (4mm End Mill)
 (690 seconds)
-N01  G90 G17 G21 (Absolute Positioning, XY Plane, Inches)
+N01 G90 G17 G21 (Absolute Positioning, XY Plane, Inches)
 N02 M06 T01 (Tool Change to #1)
 N03 M03 S10000 (Turn Spindle On Clockwise at ### RPM's)
 N04 G00 X8.0 Y42.0 (Rapid to Position #1 Letter L)
@@ -33,5 +33,7 @@ N27 X64 Y25.0
 N28 X72.0 Y42.0 
 N29 X72.0 Y8.0 
 N30 G00 Z5.0
-N31 X0.0 Y0.0
+N31 M05
+N32X0.0 Y0.0
+
 %
