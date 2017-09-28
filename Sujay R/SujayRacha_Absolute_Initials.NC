@@ -1,16 +1,38 @@
 %
-(Program Name       : )
-(Programmed By      : )
-(Date               : #/#/#)
-(Machine            : )
-(Tools Used         : )
-(Estimated Run Time : )
-
-
-
-(ending sequence)
-G00
-Z2.0
-M05
-M30
+(Name Plate Project)
+(Sujay Racha)
+(09/20/17)
+(Nomad CNC Machine)
+(1 - 4mm 1FL Flat End Mill)
+(23 seconds)
+N01 G90 G17 G21 (Absolute Positioning, XY Plane, MM)
+N02 M06 T01 (Tool Change - Tool 1)
+N03 M03 S10000.0 (Turn spindle on CW at 10000.0 RPM's)
+N04 G00 X8.0 Y10.0 (Rapid to Positon A)
+N05 Z2.0 (Move to 2.0 Above Stock)
+N06 G01 Z-1.5 F300.0 (Plunge into Stock 1.5mm Plunge Feed 762.0)
+N07 X16.0 Y10.0 F750.0 (Cut to Position B at Feed Rate 1524.0)
+N08 G03 X16.0 Y26.0 I0.0 J8.0 (Cut in CCW Arc Start at B Finish at C Center is D)
+N09 G02 X16.0 Y42.0 I0.0 J8.0 (Cut in CW Arc Start at C Finish at E Center is F)
+N10 G01 X16.0 Y42.0 (Start Straight Cut at E)
+N11 X24.0 Y42.0 (Finish Cut at G)
+N12 G00 Z2.0 (Move to 2.0 Above Stock at G)
+N13 G00 X32.0 Y42.0 (Rapid to Positon H)
+N14 G01 Z-1.5 F300.0 (Plunge into Stock 1.5mm Plunge Feed 762.0)
+N15 X32.0 Y18.0 F750.0 (Cut to Position I at Feed Rate 1524.0)
+N16 G03 X48.0 Y18.0 I8.0 J0.0 (Cut in CCW Arc Start at I Finish at J Center is K)
+N17 G01 X48.0 Y18.0 (Start Straight Cut at J)
+N18 X48.0 Y42.0 (Finish Cut at L)
+N19 G00 Z2.0 (Move to 2.0 Above Stock at L)
+N20 G00 X56.0 Y42.0 (Rapid to Positon M)
+N21 G01 Z-1.5 F300.0 (Plunge into Stock 1.5mm Plunge Feed 762.0)
+N22 X72.0 Y42.0 F750.0 (Cut to Position N at Feed Rate 1524.0)
+N23 G00 Z2.0 (Move to 2.0 Above Stock at N)
+N24 G00 X64.0 Y42.0 (Rapid to Positon O)
+N25 G01 Z-1.5 F300.0 (Plunge into Stock 1.5mm Plunge Feed 762.0)
+N26 X64.0 Y14.0 F750.0 (Cut to Position P at Feed Rate 1524.0)
+N27 G02 X56.0 Y14.0 I-4.0 J0.0 (Cut in CW Arc Start at P Finish at Q Center is R)
+N23 G00 X56.0 Y14.0 Z5.0 (Move to 2.0 Above Stock at Q)
+N24 G00 X0.0 Y0.0 (Rapid to Origin)
+N25 M05
 %
