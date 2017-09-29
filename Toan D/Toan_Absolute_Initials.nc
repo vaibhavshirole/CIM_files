@@ -43,4 +43,3 @@ N34 X11.0 Y6.0 (Clear tool from stock)
 N35 M05 (Spindle Stop) 
 N36 M30 (Program Stop)
 %
-
