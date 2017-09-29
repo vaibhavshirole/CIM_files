@@ -6,7 +6,7 @@
 (3 minutes 30 seconds)
 N01 G90 G17 G21 (Absolute Positioning, XY Plane, Millimeters)
 N02 M06 T01 (Change Tool - Tool 1)
-N03 M03 S10000 (Turn spindle clockwise at 650 RPM's)
+N03 M03 S10000 (Turn spindle clockwise at 10000 RPM's)
 N04 G00 X24.0 Y42.0 (Rapid to position A)
 N05 Z5.0 (Move to 45mm above stock)
 N06 G01 Z-1.5 F762.0 (Plunge into stock 1.5mm at position A)
