@@ -38,12 +38,11 @@ N31 G01 Z-.125 F300 (Plunge into stock .125" Plunge F = Feed)
 N32 X56.0 Y42.0 F750 (move to position J at Feed rate ###)
 N33 X72.0 Y42.0 F750 (move to position K at Feed rate ###)
 N34 X72.0 Y34.0 F750 (move to position L at Feed rate ###)
-N35 G02 X70.0 Y30.0 I-2.0 J0 F750
+N35 G02 X70.0 Y32.0 I-2.0 J0 F750
 N36 G01
 N37 X70.0 Y32.0 F750 (move to position M at Feed rate ###)
 N38 X56.0 Y32.0 F750 (move to position N at Feed rate ###)
 N39 G00 Z4.0 (Retracting tool from stock)
 N40 X0 Y0 (clear tool from stock)
 N41 M05 (spindle stop)
-N42 M30 (program Stop)
 %
