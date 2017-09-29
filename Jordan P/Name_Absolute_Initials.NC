@@ -27,7 +27,7 @@ N20 G01 Z-1.5 F300 (Plunge into stock .125" Plunge F = Feed)
 N21 X32.0 Y42.0 F750 (move to position J at Feed rate ###)
 N22 X48.0 Y42.0 F750 (move to position K at Feed rate ###)
 N23 X48.0 Y34.0 F750 (move to position L at Feed rate ###)
-N24 G02 X46.0 Y30.0 I-2.0 J0 F750
+N24 G02 X46.0 Y32.0 I-2.0 J0 F750
 N25 G01
 N26 X46.0 Y32.0 F750 (move to position M at Feed rate ###)
 N27 X32.0 Y32.0 F750 (move to position N at Feed rate ###)
