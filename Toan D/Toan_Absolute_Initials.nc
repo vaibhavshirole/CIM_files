@@ -1,16 +1,46 @@
 %
-(Program Name       : )
-(Programmed By      : )
-(Date               : #/#/#)
-(Machine            : )
-(Tools Used         : )
-(Estimated Run Time : )
+(Name Plate)
+(Toan Do)
+(9/26/2017)
+(4 mm 2FL Flat End mill)
+(5 min)
+N01 G90 G17 G21 (Absolute positioning, XY plane, inches)
+N02 T01 (Tool Change-tool 1)
+N03 M03 S10000 (Turn spindle on CW at 10000 rpm's)
+N04 G00 X8.0 Y8.0 (Rapid to position A)
+N05 Z50.8 (Move to 50.8 mm above stock)
+N06 G01 Z-1.5 F300.0 (Plunge into stock 1.5 mm Plunge F=Feed/2)
+N07 X16.0 Y42.0 F750.0 (Move to position C at F750.0)
+N08 X24.0 Y8 F750.0 (Move to position B at F750.0)
+N09 G00 Z4.0 (Retracting tool from stock)
+N10 G00 X8.0 Y26.0 (Rapid to position D)
+N11 Z50.8 (Move to 50.8 mm above stock)
+N12 G01 Z-1.5 F300.0 (Plunge into stock 1.5 mm Plunge F=Feed/2)
+N13 X24.0 Y26.0 F750.0 (Move to position E at F750.0)
+N14 G00 Z4.0 (Retracting tool from stock)
 
+N15 G00 X32.0 Y42.0 (Rapid to position G)
+N16 G01 Z-1.5 F300.0 (Plunge into stock 1.5 mm Plunge F=Feed/2)
+N17 X44.0 Y42.0 F750.0 (Move to position H at F750.0)
+N18 G01 X48.0 Y38.0 G02 I0 J-4.0 (Cut the arch, end at I)
+N19 G01 X48.0 Y12.0 F750.0 (Move to position M at F750.0)
+N20 G01 X44.0 Y8.0 G02 I-4.0 J0 (Cut the arch, end at N)
+N21 G01 X32.0 Y8.0 F750.0 (Move to position F at F750.0)
+N22 G01 X32.0 Y42.0 F750.0 (Move to position G at F750.0)
+N23 G00 Z4.0 (Retracting tool from stock)
 
-
-(ending sequence)
-G00
-Z2.0
-M05
-M30
+N24 G00 X72.0 Y36.0 (Rapid to position W)
+N25 G01 Z-1.5 F300.0 (Plunge into stock 1.5 mm Plunge F=Feed/2)
+N26 G01 X66.0 Y42.0 G03 I-6.0 J0 (Cut the arch, end at V)
+N27 G01 X60.0 Y42.0 F750.0 (Move to position P at F750.0)
+N28 G01 X56.0 Y38.0 G03 I0 J-4.0 (Cut the arch, end at Q)
+N29 G01 X56 Y12.0 F750.0 (Move to position T at F750.0)
+N30 G01 X60.0 Y8.0 G03 I4 J0 (Cut the arch, end at S)
+N31 G01 X66.0 Y8.0 F750.0 (Move to position Y at F750.0)
+N32 G01 X72.0 Y14.0 G03 I0 J6 (Cut the arch, end at S)
+N33 G00 Z4.0 (Retracting tool from stock)
+N34 X11.0 Y6.0 (Clear tool from stock)
+N35 M05 (Spindle Stop) 
+N36 M30 (Program Stop)
 %
+
