@@ -1,4 +1,4 @@
-﻿N1  %
+﻿%
 N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
@@ -8,7 +8,7 @@ N7 G90 G17 G21 (Absolute Positioning, XY plane, Inches)
 N8 M06 T01 (Tool Change - tool1)
 N9 M03 S10000 (Turn Spindle On Cw at 10000 Rpm’s)
 N10 G00 X9.0 Y43.0 (Rapid to Position A)
-N11 Z50.8 (move to 50.8 Above Stock)
+N11 Z5. (move to 5 Above Stock)
 N12 G01 Z-1.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
 N13 X25.0 Y43.0 F750 (move to position B at feed rate 750)
 N14 X9.0 Y9.0 F750 (move to position C at feed rate 750)
@@ -35,5 +35,5 @@ N35 G00 Z52.3 (Retract tool from stock 2 inches)
 N36 X0 Y0 (clear tool from stock)
 N37 M05 (spindle Stop)
 N38 M30 (Program Stop)
-N39 %
+%
 
