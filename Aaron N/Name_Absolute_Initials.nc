@@ -1,4 +1,4 @@
-N1  %
+﻿%
 N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
@@ -49,5 +49,5 @@ N35 G00 Z52.3 (Retract tool from stock 2 inches)
 N36 X0 Y0 (clear tool from stock)
 N37 M05 (spindle Stop)
 N38 M30 (Program Stop)
-N39 %
+%
 
