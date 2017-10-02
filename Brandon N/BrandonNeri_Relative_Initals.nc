@@ -6,11 +6,12 @@
 (Tools Used         : 4mm End Mill)
 (Estimated Run Time : Less Than 4 Minutes)
 
-N01 G91 G17 G21 (Relative Positioning, XY Plane, Metric)
+N01 G90 G17 G21 (Relative Positioning, XY Plane, Metric)
 N02 M06 T01 (Tool Change: Tool 1)
 N03 M03 S10000.0 (Turn Spindle on ClockWise at RPM's)
 N04 G00 X8.0 Y42.0 (Starting Location A)
 N05 G00 Z4.0 (Lower 4mm above material)
+G91
 N06 G01 Z-5.5 F325.0 (Plunge into material at 1.5mm at Feed Rate)
 N07 X8.0 Y-16.0 F750.0 (C)
 N08 X8.0 Y16.0 (B)
@@ -30,8 +31,8 @@ N21 X24.0 Y34.0
 N22 Z-6.0
 N23 G01 Z-4.0 F325
 N24 X-8.0 Y0.0
-N25 G03 X0.0 Y-18.0 I0.0 J-9.0 (D around E)
-N26 G02 X0.0 Y-17.0 I0.0 J-8.0 (G around F)
+N25 G03 X0.0 Y-17.0 I0.0 J-8.5 (D around E)
+N26 G02 X0.0 Y-17.0 I0.0 J-8.5 (G around F)
 N27 G01 X-8.0 Y0.0 (A)
 (ending sequence)
 N28 G00 Z2.0
