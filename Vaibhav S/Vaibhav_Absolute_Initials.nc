@@ -35,9 +35,3 @@ N25 M05 (stop spindle from spinning)
 N26 G00 X8.0 Y42.0 (take spindle back to starting)
 N27 M30 (end of program)
 %
-
-
-
-
-
-
