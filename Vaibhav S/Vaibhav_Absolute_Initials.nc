@@ -16,11 +16,14 @@ N07 X16.0 Y8.0 (point b LETTER ‘V’ STARTS HERE)
 N08 X24.0 Y42.0 F750.0 (SET FEED RATE)
 N09 X24.0 Y42.0 (point c)
 N99 G00 Z5.0 (Set to rapid, and go 2mm above material)
+<<<<<<< HEAD
 N10 X48 Y34 I-8.0 J0.0 F750.0 (point h,	LETTER ’S’ STARTS HERE)
+=======
+N10 X48 Y34 F750.0 (point h,	LETTER ’S’ STARTS HERE)
+>>>>>>> ShakoCIM/master
 N11 G01 Z-1.5 F325.0
 N13 X32.0 Y34.0 G03 J0.0 I-8.0 (point i)
 N14 G01 X48.0 Y16.0 (point j)
-N15 I-8.0 J0.0 
 N55 X32.0 Y16.0 G02 I-8.0 J0.0 (point k)
 N16 G00 Z5.0	(LETTER ‘H’ STARTS HERE)
 N17 X56.0 Y42.0 (point v)
