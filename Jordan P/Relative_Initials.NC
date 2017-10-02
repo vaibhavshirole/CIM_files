@@ -2,13 +2,13 @@
 (Initials, Relative)
 (Jordan Peterson)
 (10-2-17)
-(Diameter of the tool)
-(Time)
-N01 
-N02
-N03 
-N04
-N05
+(Diameter of the tool:)
+(Time:)
+N01 G90 G17 G21 (Absolute positioning, XY plane, Metric)
+N02 M03 s10000 (Spindel on clockwise at 10,000 RPM'S)
+N03 G00 X8.0 Y42.0 (rapid to position A) 
+N04 Z2.0 (move to 2.0 above stock)
+N05 G91 (Incremental/Relative)
 N06
 N07
 N08
