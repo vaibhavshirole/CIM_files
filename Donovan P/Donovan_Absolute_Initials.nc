@@ -31,7 +31,7 @@ n23 g01 x58 y26 (O to Q)
 n24 x68 y26 (Q to R)
 n25 g02 x72 y22 i0 j-4 (R to S)
 n26 g01 x72 y12 (S to T)
-n27 g02 x68 y8 i-4 j0 (T to U
+n27 g02 x68 y8 i-4 j0 (T to U)
 n28 g01 x58 y8 (U to V)
 n29 z5 (ending sequence) 
 n30 g00
