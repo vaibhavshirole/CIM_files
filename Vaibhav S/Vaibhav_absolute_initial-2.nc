@@ -1,4 +1,4 @@
-%
+﻿%
 (G-code letters program)
 (Vaibhav Shirole)
 (9/25/2017)
@@ -18,7 +18,7 @@ N09 X24.0 Y42.0 (point c)
 N99 G00 Z5.0 (Set to rapid, and go 2mm above material)
 N10 X48 Y34 I-8.0 J0.0 F750.0 (point h,	LETTER ’S’ STARTS HERE)
 N11 G01 Z-1.5 F325.0 (plunge and set feed rate)
-N13 X32.0 Y34.0 G03 J0.0 I-8.0 (point i)
+N13 G03 X32.0 Y34.0 J0.0 I-8.0 (point i)
 N14 G01 X48.0 Y16.0 (point j)
 N55 X32.0 Y16.0 G02 I-8.0 J0.0 (point k)
 N16 G00 Z5.0	(LETTER ‘H’ STARTS HERE)
