@@ -16,9 +16,13 @@ N07 X16.0 Y8.0 (point b LETTER ‘V’ STARTS HERE)
 N08 X24.0 Y42.0 F750.0 (SET FEED RATE)
 N09 X24.0 Y42.0 (point c)
 N99 G00 Z5.0 (Set to rapid, and go 2mm above material)
-N10 X48 Y34 I-8.0 J0.0 F750.0 (point h,	LETTER ’S’ STARTS HERE)
+N10 X48 Y34 F750.0 (point h,	LETTER ’S’ STARTS HERE)
 N11 G01 Z-1.5 F325.0 (plunge and set feed rate)
+<<<<<<< HEAD
 N13 G03 X32.0 Y34.0 J0.0 I-8.0 (point i)
+=======
+N13 X32.0 Y34.0 G03 I-8.0 J0.0 (point i)
+>>>>>>> 6a9e4954a4ddaee23464fed44f012e39fefc2eb7
 N14 G01 X48.0 Y16.0 (point j)
 N55 X32.0 Y16.0 G02 I-8.0 J0.0 (point k)
 N16 G00 Z5.0	(LETTER ‘H’ STARTS HERE)
