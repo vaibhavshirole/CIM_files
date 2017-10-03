@@ -10,19 +10,19 @@ n02 m06 t01
 n03 s10000 m03
 n04 z5 
 n05 g00 x8 y42
-n06 g01 z0 
-n07 f750 x8 y28
+n06 g01 f300 z-1.5 
+n07 x8  f750 y28
 n08 g03 x12 y24 i4 j0
 n09 g01 x24 y24
 n10 x24 y42
 n11 x24 y6
 n12 z5
 n13 g00 x32 y42
-n14 g01 f300 z0
+n14 g01 f300 z-1.5
 n15 f750 x32 y6
 n16 z5
 n17 g00 x58 y42
-n18 g01 f300 z0
+n18 g01 f300 z-1.5
 n19 f750 x68 y42
 n20 g02 x72 y38 i0 j-4
 n21 g01 x72 y30
