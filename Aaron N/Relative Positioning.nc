@@ -1,13 +1,13 @@
-%
+﻿%
 N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
 N5 (4mm 2FL Flat End Mill)
 N6 (18 Seconds)
-N9 G90 G17 G21 (Absolute Positioning, XY plane, Inches)
-N8 G00 X9.0 Y43.0 (Move to point A)
+N7 G90 G17 G21 (Absolute Positioning, XY plane, Inches)
 N8 M06 T01 (Tool Change - tool1)
 N9 M03 S10000 (Turn Spindle On Cw at 10000 Rpm’s)
+N10 G00 X9.0 Y43.0 (Move to point A)
 N11 Z2.0 (move to 2 Above Stock)
 N12 G91 G17 G21 (Relative Positioning, XY plane, Inches)
 N12 G01 Z-3.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
