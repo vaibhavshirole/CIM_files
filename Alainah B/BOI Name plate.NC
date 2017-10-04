@@ -17,7 +17,7 @@ N011 G01 X0.0 Y34.0 (move to F Feed rate 750)
 N012 G00 Z5.0 
 
 (O)
-N011 G00 X32.0 Y42.0(rapid to G)
+N011 G00 X24.0 Y0.0(move to G Feed rate 750)
 N012 G01 Z-1.5 F300.(Plunge into stock 1.5mm Plunge F = Feed 1/2)
 N013 G01 X16.0 Y0.0 (move to H Feed rate 750)
 N014 G01 X0.0 Y-34.0 (move to I Feed rate 750)
@@ -26,7 +26,7 @@ N016 G01 X0.0 Y34.0 (move to K Feed rate 750)
 N017 G00 Z5.0 
 
 (I)
-N018 G00 X56.0 Y42.0(rapid to L)
+N018 G00 X24.0 Y0.0(move to J Feed rate 750)
 N019 G01 Z-1.5 F300.(Plunge into stock 1.5mm Plunge F = Feed 1/2)
 N020 G01 X16.0 Y0.0 (move to M Feed rate 750)
 N021 G01 X-8.0 Y0.0 (move to N Feed rate 750)
