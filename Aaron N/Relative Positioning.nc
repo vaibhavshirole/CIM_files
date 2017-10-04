@@ -36,5 +36,3 @@ N36 X0 Y0 (clear tool from stock)
 N37 M05 (spindle Stop)
 N38 M30 (Program Stop)
 %
-
-
