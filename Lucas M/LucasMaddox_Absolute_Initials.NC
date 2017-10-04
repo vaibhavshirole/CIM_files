@@ -1,4 +1,3 @@
-
 %
 (G-Code Initials Program)
 (Lucas Maddox)
@@ -23,9 +22,9 @@ N14 Z-3.0 (move 2.0mm above stock)
 N15 G01 Z-3.5 F300.0 (Plunge into Stock 1.5mm)
 N16 X0.0 Y34.0 F750.0 (move to position G at FR 750)
 N17 X12.0 Y0.0 (move to position H)
-N18 X4.0 Y-4.0 I-4.0 J0.0 (move to position I at FR 750 and plot the Curve)
+N18 X4.0 Y-4.0 (move to position I at FR 750 and plot the Curve)
 N19 X0.0 Y-9.0 (move to position K at FR 750)
-N20 X-4.0 Y-4.0 I0.0 J4.0 (move to position L at FR 750 and plot the Curve)
+N20 X-4.0 Y-4.0 (move to position L at FR 750 and plot the Curve)
 N21 X-12.0 Y0.0 (move to position N at FR 750)
 N22 X0.0 Y-17.0 (move to Position F and finish the Letter P)
 N23 G00 Z6.5 (Retract Tool From Stock)
@@ -40,4 +39,5 @@ N31 G00 Z6.5 (Retract Tool from stock)
 N32 M05 (Stop Spindle)
 N33 Z-72.0 Y0.0 (Rapid to Origin)
 %
+
 
