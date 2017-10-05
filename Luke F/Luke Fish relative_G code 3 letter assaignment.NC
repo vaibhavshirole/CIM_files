@@ -6,8 +6,9 @@
 N01 G90 G17 G21 ( Positioning,XY Plane, mm)
 N02 M06 T1 (Change to tool #1)
 N03 M03 S10000 (Turn spindle on clockwise at 10000 rpms)
-N04 Z2.0 (Set above stock)
+G04 P3
 N05 G00 X8 Y42 (rapid position to A)
+N04 Z2.0 (Set above stock)
 N06 G91
 N07 Z-3.5 F300 (plunge into stock)
 N08 G01 X16 Y0 F750 (move to position B)
