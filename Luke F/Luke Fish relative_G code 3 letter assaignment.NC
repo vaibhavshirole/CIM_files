@@ -1,5 +1,5 @@
 %
-(3 letter assignment)
+(3 letter assignment Relavtive)
 (Luke Fischer)
 (9/19/17)
 (4mm 1fl Flat End Mill)
@@ -14,18 +14,17 @@ N08 G01 X16 Y0 F750 (move to position B)
 N09 x-8 y-34 (move to position C)
 N10 G00 Z3.5 (retract tool from stock)
 (Finished 1st 7)
-N11 x32 y42 (rapid position to D)
+N11 x32 y34 (rapid position to D)
 N12 z-3.5 F300 (Plunge into stock)
 N13 G01 x16 y0 F750 (move to position E)
 N14 x-8 y-34 (Move to position F)
 N15 G00 Z3.5 (retract tool from stock)
 (Finished 2nd 7)
-N16 G00 X56 Y42 (Rapid position to G)
+N16 G00 X34 Y34 (Rapid position to G)
 N17 Z-3.5 F300 (Plunge into stock)
 N18 G01 X16 Y0 F750 (Move to position H)
 N19 X-8 Y-34 (Move to psotion I)
 N20 Z3.5 (retact tool from stock)
 N21 M05 (stop tool)
-
-
-
+N22 Z30 y60
+%
