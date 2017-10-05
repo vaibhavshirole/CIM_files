@@ -1,4 +1,4 @@
-﻿%
+%
 N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
