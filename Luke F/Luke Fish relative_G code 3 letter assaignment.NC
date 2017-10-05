@@ -10,7 +10,7 @@ G04 P3
 N05 G00 X8 Y42 (rapid position to A)
 N04 Z2.0 (Set above stock)
 N06 G91
-N07 Z-3.5 F300 (plunge into stock)
+N07 G01 Z-3.5 F300 (plunge into stock)
 N08 G01 X16 Y0 F750 (move to position B)
 N09 x-8 y-34 (move to position C)
 N10 G00 Z3.5 (retract tool from stock)
