@@ -1,4 +1,4 @@
-%
+﻿%
 N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
@@ -31,8 +31,8 @@ N31 X16.0 Y0.0 F750 (move to position N at feed rate 750)
 N32 X-16.0 Y0.0 F750 (move to position O at feed rate 750)
 N33 X0.0 Y-18.0 F750 (move to position P at feed rate 750)
 N34 X16.0 Y0.0 F750 (move to position q at feed rate 750)
-N35 G00 Z52.3 (Retract tool from stock 2 inches)
-N36 X0 Y0 (clear tool from stock)
+N35 G00 Z2 (Retract tool from stock 2 mm)
 N37 M05 (spindle Stop)
+N36 Y60 (clear tool from stock)
 N38 M30 (Program Stop)
 %
