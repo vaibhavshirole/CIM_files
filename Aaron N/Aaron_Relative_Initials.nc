@@ -1,5 +1,4 @@
-﻿%
-N2 (G-Code intro program)
+﻿N2 (G-Code intro program)
 N3 (Aaron Nguyen)
 N4 (9/26/2017)
 N5 (4mm 2FL Flat End Mill)
@@ -35,4 +34,3 @@ N35 G00 Z2. (Retract tool from stock 2 mm)
 N36 M05 (spindle Stop)
 N37 Y60. Z40. (clear tool from stock)
 N38 M30 (Program Stop)
-%
