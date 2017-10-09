@@ -27,8 +27,8 @@ n19 g01 z-3 f300 (Third Plunge)
 n20 f750 y32 (K to L)
 n21 x16 y-32 (L to M)
 n22 y32 (M to N)
-n23 z30 (ending sequence) 
-n24 g00 y-80
+n23 G00 z30 (ending sequence) 
+n24 g00 y80
 n25 M05
 n26 M30
 % 
