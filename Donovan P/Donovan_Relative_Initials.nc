@@ -1,4 +1,4 @@
-﻿%
+%
 (Program Name       : LJN Cutting Program)
 (Programmed By      : Donovan Prince)
 (Date               : 10/4/17)
