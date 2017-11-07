@@ -1,16 +1,38 @@
 %
-(Program Name       : )
-(Programmed By      : )
-(Date               : #/#/#)
-(Machine            : )
-(Tools Used         : )
-(Estimated Run Time : )
-
-
-
-(ending sequence)
-G00
-Z2.0
-M05
-M30
+N2 (G-Code intro program)
+N3 (Aaron Nguyen)
+N4 (9/26/2017)
+N5 (4mm 2FL Flat End Mill)
+N6 (18 Seconds)
+N7 G90 G17 G21 (Absolute Positioning, XY plane, Inches)
+N8 M06 T01 (Tool Change - tool1)
+N9 M03 S10000 (Turn Spindle On Cw at 10000 Rpm’s)
+N10 G00 X9.0 Y43.0 (Rapid to Position A)
+N11 Z5. (move to 5 Above Stock)
+N12 G01 Z-1.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
+N13 X25.0 Y43.0 F750 (move to position B at feed rate 750)
+N14 X9.0 Y9.0 F750 (move to position C at feed rate 750)
+N15 X25.0 Y9.0 F750 (move to position D at feed rate 750)
+N16 G00 Z4.0 (retract tool from stock 2 inches)
+N18 G00 X49.0 Y43.0 (Rapid to Position E)
+N19 G01 Z-1.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
+N20 X33.0 Y43.0 F750 (move to position F at feed rate 750)
+N21 X33.0 Y25.0 F750 (move to position I at feed rate 750)
+N22 X49.0 Y25.0 F750 (move to position J at feed rate 750)
+N23 X33.0 Y25.0 F750 (move to position K at feed rate 750)
+N24 X33.0 Y9.0 F750 (move to position L at feed rate 750)
+N25 X49.0 Y9.0 F750 (move to position O at feed rate 750)
+N26 G00 Z4.0 (retract tool from stock 2 inches)
+N27 G00 X57.0 Y9.0 (rapid to position P)
+N28 G01 Z-1.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
+N29 X57.0 Y43.0 F750 (move to position Q at feed rate 750)
+N30 G01 X69.0 Y43.0 F750 (move to position R at feed rate 750)
+N31 G02 X73.0 Y39.0 I0 J-4.0 (cut the arc, end at S)
+N32 G01 X73.0 Y13.0 F750 (move to position U at feed rate 750)
+N33 G02 X69.0 Y9.0 I-4.0 J0 (cut the arc, end at V)
+N34 G01 X57.0 Y9.0 F750 (move to position X at feed rate 750)
+N35 G00 Z52.3 (Retract tool from stock 2 inches)
+N36 X0 Y0 (clear tool from stock)
+N37 M05 (spindle Stop)
+N38 M30 (Program Stop)
 %
