@@ -4,8 +4,6 @@
 (T1  D=6.35 CR=0 - ZMIN=-10.795 - flat end mill)
 N0 G90
 N1 G17
-(Adaptive2)
-
 N3 S10000 M3
 N5 G0 X81.321 Y47.339
 N6 Z15.24
