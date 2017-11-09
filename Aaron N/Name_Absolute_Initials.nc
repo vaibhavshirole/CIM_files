@@ -6,7 +6,7 @@ N5 (4mm 2FL Flat End Mill)
 N6 (18 Seconds)
 N7 G90 G17 G21 (Absolute Positioning, XY plane, Inches)
 N8 M06 T01 (Tool Change - tool1)
-N9 M03 S10000 (Turn Spindle On Cw at 10000 Rpm’s)
+N9 M03 S10000 (Turn Spindle On Cw at 10000 Rpmâ€™s)
 N10 G00 X9.0 Y43.0 (Rapid to Position A)
 N11 Z5. (move to 5 Above Stock)
 N12 G01 Z-1.5 F300 (Plunge into stock 1.5mm with plunge feed of 300)
@@ -36,4 +36,3 @@ N36 X0 Y0 (clear tool from stock)
 N37 M05 (spindle Stop)
 N38 M30 (Program Stop)
 %
-
